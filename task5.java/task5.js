@@ -47,12 +47,13 @@ console.log(EvenorOdd(num))
 // }
 // even =evenNumber(Array.of(evnum[i]))
 
- let evennum=[1,2,3,4,5,6,7,8,9]
+
  function evenNumber(array){
     return  evennum=evennum.filter(function (number){ return number%2 == 0;
 
     })
  }
+ let evennum=[1,2,3,4,5,6,7,8,9]
  console.log(evenNumber(evennum))
 //  task5.....................................
 // let numbers1 =[-1,-3,-4,-5,-10,0]
