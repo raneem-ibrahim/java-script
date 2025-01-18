@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DTask management system</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/entry-page.css">
+    <style>
+      .reqiuerd{
+  
+  display: none;
+}
+.spn3{
+  display: none;
+}
+.spn4{
+  display: none;
+}
+
+    </style>
+</head>
+<body>
+    <div class="row height-full">
+        <!-- left side -->
+        <div
+          class="left-column flex flex-column height-full justify-center items-center">
+          <h1 class="welcoming-title">Hello</h1>
+          <form class="form" autocomplete="off">
+            <label  class="label">FirstName</label>
+            <input type="text" id="firstname" class="input"  />
+            <span style="color: red;" class="reqiuerd" id="reqiuerd">reqiuerd</span>
+
+
+            <label  class="label">LastName</label>
+            <input type="text"  id="lastname" class="input"  />
+            <span style="color: red;" class="reqiuerd" id="reqiuerd">reqiuerd</span>
+
+            
+            <label  class="label">Email</label>
+            <input type="email"  id="email" class="input"  />
+            <span id="spn2" class="spn3" >plaes write email</span>
+
+            <span style="color: red;" class="reqiuerd" id="reqiuerd">reqiuerd</span>
+
+  
+            <label  class="label">Password</label>
+            <input type="password" id="password" class="input" />
+            <span id="sban" class="spn4">password is not squre</span>
+
+            <span style="color: red;" class="reqiuerd" id="reqiuerd">reqiuerd</span>
+
+            <label class="label">Confirm Password</label>
+            <input type="password" id="confirmpassword"  class="input" />
+            <span style="color: red;" class="reqiuerd" id="reqiuerd">reqiuerd</span>
+
+  
+            <button id="btn" type="button"  class="button regular-button pink-background cta-btn" >
+              Sign up
+            </button>
+          </form>
+          <p class="login-prompt">
+            Already have an account?
+            <a href="./login.html" class="log-in-link">Log in</a>
+          </p>
+        </div>
+        <!-- right side -->
+        <div class="right-column "></div>
+      </div>
+      <script src="../js/sinup.js">
+
+      </script>
+</body>
+</html>
